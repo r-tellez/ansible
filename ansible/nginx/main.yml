@@ -1,0 +1,13 @@
+---
+# Nginx Play book
+hosts: webserver
+remote_user: "root"
+roles:
+  role: nginx_install
+---
+
+# Nginx Playbook
+- hosts: webserver
+  remote_user: "root"
+  roles:
+    role: nginx_install
